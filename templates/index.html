@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+  <!-- banner paralex -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">MOOD DIPRESSION DETECTION</h1>
+        <div class="row center">
+          <a href="{% url 'test' %}" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/background1.jpg' %}" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <!-- properties section -->
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">child_care</i></h2>
+            <h5 class="center">Be Happy</h5>
+
+            <p class="light">The aim of this website is to detect the people's mood and try to suggest some triks and some ways by which they overcome their sadeness. Because Dipression is not the solution, but if they forget the dipression and start enjying their life then thy find the solutions.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Share Happiness</h5>
+
+            <p class="light">Be happy and share happiness, if people start sharing happiness then automatically dipression get decresed by some percentage and it also improves their health.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">chat</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">In the environmnt where no dipression exists, there people can do their tasks efficiently and also it can increase the production of the company. So, this website can try to detect the sadness of people just by a simple test and after that it suggest some entertainment.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--  -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light grey-text text-darken-3">Try not to stay alone for long time</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/background2.jpg' %}" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- container -->
+  <div id="contact" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">I am a college student and trying to make a website which help dipressed people because they are they are harming their health by taking lot of stress.</p>
+          <p class="left-align">You can contact me at:  <b>mooddetection@gmail.com</b></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- paralex -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light grey-text text-darken-3">Enjoy the beauty of the nature</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/background3.jpg' %}" alt="Unsplashed background img 3"></div>
+  </div>
+
+{% endblock %}

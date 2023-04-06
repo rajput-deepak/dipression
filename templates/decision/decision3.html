@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Decision{% endblock %}
+
+{% block body %}
+  <!-- Decision  -->
+
+  <div class="container margin">
+    <h4>Congratulations!</h4>
+    <p>you completed the test.</p>
+      
+    <h5>With the help of this test we found that</h5>
+    <p>you are <b>Dipressed</b> 😶</p>
+    <p>Please go out with your friends 🐱‍🏍</p>
+    <p>Listen songs 🎶</p>
+    <p>Play some games 🎮</p>
+    <p>Watch enformative content 😎</p>
+
+    <a href="{% url 'index' %}">Go Home</a>
+  </div>
+
+
+{% endblock %}
